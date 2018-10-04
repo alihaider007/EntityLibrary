@@ -1,0 +1,7 @@
+{
+  "ConnectionStrings": {
+    "EntityConnection": "Server=localhost;Database=EntityDB;Trusted_Connection=True;MultipleActiveResultSets=true",
+    "Invalid": "Server=localhost;",
+    "EmptyConnection":  ""
+  }
+}
