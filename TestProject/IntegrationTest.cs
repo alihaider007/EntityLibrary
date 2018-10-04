@@ -14,6 +14,7 @@ namespace TestProject
     public class IntegrationTest
     {
         [TestMethod]
+        [Ignore]
         public void Integration_Test_Fetch_Type_A_With_Stored_Procedure()
         {
             var options = new DbContextOptionsBuilder<EntityContext>()
@@ -30,6 +31,7 @@ namespace TestProject
         }
 
         [TestMethod]
+        [Ignore]
         public void Integration_Test_Add_Type_E_Data()
         {
             var options = new DbContextOptionsBuilder<EntityContext>()
@@ -55,6 +57,7 @@ namespace TestProject
         }
 
         [TestMethod]
+        [Ignore]
         public void Integration_Test_Delete_Type_E_Data()
         {
             var options = new DbContextOptionsBuilder<EntityContext>()
